@@ -1,0 +1,41 @@
+{
+  "name": "encrypted-cookie",
+  "version": "0.1.0",
+  "description": "Simply use aes encrypted cookie ",
+  "dependencies": {
+  },
+  
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbram/encrypted-cookie.git"
+  },
+  "keywords": [
+    "cookie",
+    "store json",
+    "encryption",
+    "aes",
+    "encode",
+    "decryption",
+    "decode",
+    "unlimited"
+  ],
+  "author": "Karunaaharan Bavaram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kbram/encrypted-cookie/issues"
+  },
+  "homepage": "https://github.com/kbram/encrypted-cookie#readme"
+}
