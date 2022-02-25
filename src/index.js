@@ -33,16 +33,16 @@ class CookieService {
     return "";
   }
 
-  checkCookie(name) {
-    var user = this.getCookie(name);
+  checkCookie(name,key = "KarunaaharanBavaram") {
+    var user = this.getCookie(name,key);
     if (user !== "") {
       return true;
     }
      return false;
     
   }
-  eraseCookie(name) {
-    this.setCookie(name,"",-1);
+  eraseCookie(name,key = "KarunaaharanBavaram") {
+    this.setCookie(name,"",-1,key);
   }
 }
 

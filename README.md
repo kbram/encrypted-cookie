@@ -68,8 +68,8 @@ CookieService.setCookie("userName", "Bavaram", 7,"passKey"); //set Cookie with e
 CookieService.getCookie("userName","passKey"); //get Cookie with encrypted key (key,encrypt_Key)
 CookieService.setArrayCookie("userDetails", [{name:"bavaram",age:"23"}], 7,"passKey"); //(key,jsonArray,expire_days,encrypt_Key)
 CookieService.getArrayCookie("userDetails","passKey"); //(key,encrypt_Key)
-CookieService.checkCookie("userDetails"); //Check cookie name available ,respones will be comes with boolean (key)
-CookieService.eraseCookie("userDetails"); //erase set Cookie (key)
+CookieService.checkCookie("userDetails","passKey"); //Check cookie name available ,respones will be comes with boolean (key,encrypt_Key)
+CookieService.eraseCookie("userDetails","passKey"); //erase set Cookie (key,encrypt_Key)
 
  
 ```
