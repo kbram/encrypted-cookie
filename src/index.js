@@ -27,7 +27,11 @@ class CookieService {
         c = c.substring(1);
       }
       if (c.indexOf(name) === 0) {
-        return AesEncryption.decrypt(c.substring(name.length, c.length),key);
+        try{
+          return AesEncryption.decrypt(c.substring(name.length, c.length),key);
+        }catch(error){
+          return ""
+        }
       }
     }
     return "";
@@ -42,7 +46,9 @@ class CookieService {
     
   }
   eraseCookie(name,key = "KarunaaharanBavaram") {
-    this.setCookie(name,"",-1,key);
+    if(this.checkCookie(name,key)){
+      this.setCookie(name,"",-1,key);
+    }
   }
 }
 

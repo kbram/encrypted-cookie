@@ -73,7 +73,16 @@ CookieService.eraseCookie("userDetails","passKey"); //erase set Cookie (key,encr
 
  
 ```
+## Note
+```js
+CookieService.checkCookie() //=>returns boolean value 
+// (If encrypted key is wrong => False)
+// (cookie is not available   => False)
 
+CookieService.eraseCookie()
+// (If encrypted key is wrong  =>nothing happen)
+
+```
 
 ## Browser Support
 
