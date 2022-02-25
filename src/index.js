@@ -8,11 +8,11 @@ class CookieService {
     var expires = "expires=" + d.toUTCString();
     document.cookie = name + "=" + AesEncryption.encrypt(value,key)+ ";" + expires + ";SameSite=Lax;path=/";
   }
-  setArrayCookie(name, value, exDay,key){
+  setArrayCookie(name, value, exDay,key = "KarunaaharanBavaram"){
     this.setCookie(name, JSON.stringify(value), exDay,key);
   }
-  getArrayCookie(name,key){
-    if(this.getCookie(name)===""){
+  getArrayCookie(name,key = "KarunaaharanBavaram"){
+    if(this.getCookie(name,key)===""){
       return "";
     }else{
       return JSON.parse(this.getCookie(name,key));
