@@ -1,15 +1,65 @@
-# encrypted-cookie
+<div id="top"></div>
 
-Simply use aes encrypted cookie 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## framework support
+<br />
 
-- React JS _(no dependencies)_
-- Angular JS _(no dependencies)_
-- Node JS _(no dependencies)_
-- pure JavaScript _(no dependencies)_
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/kbram/aes-encryption">
+    <img src="https://github.com/kbram/files/blob/main/encryption-icon.png" alt="Logo" width="160" height="160">
+  </a>
 
-## Get started
+  <h3 align="center">encrypted-cookie</h3>
+
+  <p align="center">
+    Simply use aes encrypted cookie
+    <br />
+    <a href="https://github.com/kbram/aes-encryption"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/kbram/aes-encryption">View Demo</a>
+    ·
+    <a href="https://github.com/kbram/aes-encryption/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kbram/aes-encryption/issues">Request Feature</a>
+  </p>
+</div>
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+   <li><a href="#about-project">About Project</a></li>
+   <li><a href="#features">Features</a></li>
+   <li><a href="#installation">Installation</a></li>
+    <li><a href="#built-With">Built With</a></li>
+    <li><a href="#usage">Usages</a></li>
+    <li><a href="#browser-support">Browser Support</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<!-- PROJECT FEATHERS -->
+## About Project
+
+This is fully secure cookies with AES Encryption. You can store encrypted cookie. This is specially you can use unlimited length key and store unlimited length of string value in cookie. Encrypt Json array also storable. It's have default key value and you can change own key value to store.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Built With
+
+* 100% [JavaScript](https://www.javascript.com/)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Installation
 
 This is a [Node.js](https://nodejs.org/en/) module available through the
@@ -32,6 +82,7 @@ Using yarn:
 ```bash
 $ yarn add encrypted-cookie
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Features
 
@@ -44,6 +95,7 @@ $ yarn add encrypted-cookie
   * well secure AES Encryption
   * You can erase manually with erase function  
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ------
 
@@ -73,6 +125,8 @@ CookieService.eraseCookie("userDetails","passKey"); //erase set Cookie (key,encr
 
  
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Note
 ```js
 CookieService.checkCookie() //=>returns boolean value 
@@ -83,6 +137,7 @@ CookieService.eraseCookie()
 // (If encrypted key is wrong  =>nothing happen)
 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Browser Support
 
@@ -91,19 +146,36 @@ Native support
 - Chrome
 - Safari
 - FireFox
-- Opera
-- Internet Explorer 9+
 
-Support for Internet Explorer 7 and 8 with [excanvas](https://code.google.com/p/explorercanvas/wiki/Instructions) polyfill.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## License
 
-[MIT](LICENSE)
+  [MIT](LICENSE)
 
 
-> Developed by Karunaaharan Bavaram
+>
+> Developed by [`Karunaaharan Bavaram`](https://www.bavaram.info)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Copyright
 
-Copyright (c) 2022 Karunaaharan Bavaram, contributors. Released under the MIT licenses
+Copyright (c) 2022 [`Karunaaharan Bavaram`](https://www.bavaram.info), contributors. Released under the MIT, GPL licenses
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+[contributors-shield]: https://img.shields.io/github/contributors/kbram/aes-encryption.svg?style=for-the-badge
+[contributors-url]: https://github.com/kbram/aes-encryption/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kbram/aes-encryption.svg?style=for-the-badge
+[forks-url]: https://github.com/kbram/aes-encryption/network/members
+[stars-shield]: https://img.shields.io/github/stars/kbram/aes-encryption.svg?style=for-the-badge
+[stars-url]: https://github.com/kbram/aes-encryption/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kbram/aes-encryption.svg?style=for-the-badge
+[issues-url]: https://github.com/kbram/aes-encryption/issues
+[license-shield]: https://img.shields.io/github/license/kbram/aes-encryption.svg?style=for-the-badge
+[license-url]: https://github.com/kbram/aes-encryption/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/bavaram
 
