@@ -37,10 +37,11 @@
   <summary>Table of Contents</summary>
   <ol>
    <li><a href="#about-project">About Project</a></li>
+   <li><a href="#built-With">Built With</a></li>
    <li><a href="#features">Features</a></li>
    <li><a href="#installation">Installation</a></li>
-    <li><a href="#built-With">Built With</a></li>
     <li><a href="#usage">Usages</a></li>
+    <li><a href="#note">Note</a></li>
     <li><a href="#browser-support">Browser Support</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -57,6 +58,19 @@ This is fully secure cookies with AES Encryption. You can store encrypted cookie
 
 * 100% [JavaScript](https://www.javascript.com/)
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Features
+
+  * AES-unlimited encryption cookie service without key
+  * AES-unlimited decryption cookie service without key
+  * AES-unlimited encryption cookie service  with key
+  * AES-unlimited decryption cookie service  with key
+  * Store json array in cookie (Normally other cookie packages not support to store json array)
+  * Set expire days
+  * well secure AES Encryption
+  * You can erase manually with erase function  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -83,20 +97,6 @@ Using yarn:
 $ yarn add encrypted-cookie
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-## Features
-
-  * AES-unlimited encryption cookie service without key
-  * AES-unlimited decryption cookie service without key
-  * AES-unlimited encryption cookie service  with key
-  * AES-unlimited decryption cookie service  with key
-  * Store json array in cookie (Normally other cookie packages not support to store json array)
-  * Set expire days
-  * well secure AES Encryption
-  * You can erase manually with erase function  
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ## Usage
