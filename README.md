@@ -11,7 +11,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/kbram/aes-encryption">
+  <a href="https://github.com/kbram/encrypted-cookie">
     <img src="https://github.com/kbram/files/blob/main/encryption-icon.png" alt="Logo" width="160" height="160">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     Simply use aes encrypted cookie
     <br />
-    <a href="https://github.com/kbram/aes-encryption"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kbram/encrypted-cookie"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kbram/aes-encryption">View Demo</a>
+    <a href="https://github.com/kbram/encrypted-cookie">View Demo</a>
     ·
-    <a href="https://github.com/kbram/aes-encryption/issues">Report Bug</a>
+    <a href="https://github.com/kbram/encrypted-cookie/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kbram/aes-encryption/issues">Request Feature</a>
+    <a href="https://github.com/kbram/encrypted-cookie/issues">Request Feature</a>
   </p>
 </div>
 
@@ -97,7 +97,7 @@ $ yarn add encrypted-cookie
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-------
+
 
 ## Usage
 
@@ -166,16 +166,16 @@ Copyright (c) 2022 [`Karunaaharan Bavaram`](https://www.bavaram.info), contribut
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/kbram/aes-encryption.svg?style=for-the-badge
-[contributors-url]: https://github.com/kbram/aes-encryption/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kbram/aes-encryption.svg?style=for-the-badge
-[forks-url]: https://github.com/kbram/aes-encryption/network/members
-[stars-shield]: https://img.shields.io/github/stars/kbram/aes-encryption.svg?style=for-the-badge
-[stars-url]: https://github.com/kbram/aes-encryption/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kbram/aes-encryption.svg?style=for-the-badge
-[issues-url]: https://github.com/kbram/aes-encryption/issues
-[license-shield]: https://img.shields.io/github/license/kbram/aes-encryption.svg?style=for-the-badge
-[license-url]: https://github.com/kbram/aes-encryption/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kbram/encrypted-cookie.svg?style=for-the-badge
+[contributors-url]: https://github.com/kbram/encrypted-cookie/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kbram/encrypted-cookie.svg?style=for-the-badge
+[forks-url]: https://github.com/kbram/encrypted-cookie/network/members
+[stars-shield]: https://img.shields.io/github/stars/kbram/encrypted-cookie.svg?style=for-the-badge
+[stars-url]: https://github.com/kbram/encrypted-cookie/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kbram/encrypted-cookie.svg?style=for-the-badge
+[issues-url]: https://github.com/kbram/encrypted-cookie/issues
+[license-shield]: https://img.shields.io/github/license/kbram/encrypted-cookie.svg?style=for-the-badge
+[license-url]: https://github.com/kbram/encrypted-cookie/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bavaram
 
