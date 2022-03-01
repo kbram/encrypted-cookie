@@ -175,7 +175,7 @@ Copyright (c) 2022 [`Karunaaharan Bavaram`](https://www.bavaram.info), contribut
 [issues-shield]: https://img.shields.io/github/issues/kbram/encrypted-cookie.svg?style=for-the-badge
 [issues-url]: https://github.com/kbram/encrypted-cookie/issues
 [license-shield]: https://img.shields.io/github/license/kbram/encrypted-cookie.svg?style=for-the-badge
-[license-url]: https://github.com/kbram/encrypted-cookie/blob/master/LICENSE.txt
+[license-url]: https://github.com/kbram/encrypted-cookie/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bavaram
 
